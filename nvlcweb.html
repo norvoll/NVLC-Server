@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>NVLC SMP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preconnect to Google Fonts so the font loads quickly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Russo One is a geometric display font with Cyrillic support. It approximates the pixel‑block feel of the original Minecraft font -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!-- Font Awesome provides vector icons for social media links -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero section with a fantasy landscape backdrop -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>NVLC SMP</h1>
+            <p>NVLC — сервер, направленный на увеличение получаемого удовольствия от игры с друзьями в уникальном мире! Здесь моды, фантазия и дружба превращают обычное выживание в настоящее приключение.</p>
+            <a href="#info" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </header>
+
+    <!-- Main content: three information cards -->
+    <main id="info">
+        <section class="cards">
+            <!-- Connection details -->
+            <div class="card">
+                <img src="assets/block1.jpg" alt="Приключение в мире Minecraft">
+                <div class="card-content">
+                    <h2>Подключение</h2>
+                    <p class="ip" title="Нажмите, чтобы скопировать IP"><span>IP:</span> nvlc.smp.fun</p>
+                    <p class="version"><span>Версия:</span> 1.20.1</p>
+                    <!-- Link to mods archive. Replace href with the actual archive URL when available -->
+                    <a href="#" class="download-mods">Скачать архив с модами</a>
+                </div>
+            </div>
+
+            <!-- How to connect instructions -->
+            <div class="card">
+                <div class="card-content instructions">
+                    <h2>Как подключиться</h2>
+                    <ol>
+                        <li>Скачайте архив со сборкой модов.</li>
+                        <li>Откройте папку <code>.minecraft</code> через Win+R и ввод <code>%APPDATA%/.minecraft</code>.</li>
+                        <li>Распакуйте содержимое архива в папку <code>mods</code>.</li>
+                        <li>Запускайте игру и наслаждайтесь!</li>
+                    </ol>
+                    <!-- Illustration of the Win+R dialog below the list -->
+                    <img class="run-dialog" src="assets/run_dialog.png" alt="Окно выполнения (Win+R)">
+                </div>
+            </div>
+
+            <!-- Social links and sponsorship -->
+            <div class="card">
+                <!-- Reuse the cave artwork as a decorative background -->
+                <img src="assets/block1.jpg" alt="Сообщество Minecraft">
+                <div class="card-content social-card">
+                    <h2>Соцсети &amp; Спонсорство</h2>
+                    <ul class="social">
+                        <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/nvlc_smp" target="_blank" rel="noopener">Telegram</a></li>
+                        <li><i class="fa-brands fa-discord"></i> <a href="https://discord.gg/p3KbuAQcn4" target="_blank" rel="noopener">Discord</a></li>
+                        <li><i class="fa-brands fa-vk"></i> <a href="https://vk.com/nvlc_smp" target="_blank" rel="noopener">VK</a></li>
+                    </ul>
+                    <h3>Спонсорство</h3>
+                    <ul class="sponsor">
+                        <li><a href="#">DonationAlerts&nbsp;(скоро)</a></li>
+                        <li><a href="#">Boosty&nbsp;(скоро)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Simple footer -->
+    <footer>
+        <p>&copy; 2025 NVLC SMP. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
